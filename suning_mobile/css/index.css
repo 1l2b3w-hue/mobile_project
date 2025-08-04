@@ -1,0 +1,243 @@
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 21.33333333px;
+  }
+}
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 25px;
+  }
+}
+@media screen and (min-width: 384px) {
+  html {
+    font-size: 25.6px;
+  }
+}
+@media screen and (min-width: 400px) {
+  html {
+    font-size: 26.66666667px;
+  }
+}
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 27.6px;
+  }
+}
+@media screen and (min-width: 424px) {
+  html {
+    font-size: 28.26666667px;
+  }
+}
+@media screen and (min-width: 480px) {
+  html {
+    font-size: 32px;
+  }
+}
+@media screen and (min-width: 540px) {
+  html {
+    font-size: 36px;
+  }
+}
+@media screen and (min-width: 720px) {
+  html {
+    font-size: 48px;
+  }
+}
+@media screen and (min-width: 750px) {
+  html {
+    font-size: 50px;
+  }
+}
+body {
+  margin: 0 auto;
+  width: 15rem;
+  min-width: 320px;
+  background-color: #f2f2f2;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
+li {
+  list-style: none;
+}
+.search {
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  width: 15rem;
+  height: 1.76rem;
+  background-color: skyblue;
+  padding: 0.2rem 0.48rem;
+}
+.search a {
+  display: block;
+  margin-right: 0.96rem;
+  width: 10.44rem;
+  height: 1.36rem;
+  background-color: #fff;
+  border-radius: 0.64rem;
+  color: #333;
+}
+.search a span {
+  font-size: 0.72rem;
+  color: #757575;
+}
+.search a .iconfont {
+  color: #ccc;
+  margin-left: 0.4rem;
+}
+.search img {
+  width: 0.72rem;
+  height: 1.2rem;
+}
+.category {
+  padding: 1.86rem 0.48rem 0.1rem;
+  height: 8.16rem;
+}
+.category ul {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fff;
+  height: 100%;
+  border-radius: 0.4rem;
+}
+.category ul li {
+  width: 20%;
+  flex-shrink: 0;
+}
+.category ul li a {
+  display: block;
+  text-align: center;
+  width: 3rem;
+  height: 2.84rem;
+  color: #666;
+}
+.category ul li a img {
+  width: 1.68rem;
+}
+.category ul li a span {
+  display: block;
+  font-size: 0.44rem;
+}
+.view {
+  display: flex;
+}
+.view a {
+  display: block;
+  width: 5rem;
+}
+.view a img {
+  height: 3.8404rem;
+}
+.interval {
+  height: 0.48rem;
+}
+.wrap {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 14.04rem;
+  background-color: skyblue;
+}
+.wrap .left,
+.wrap .right {
+  width: 6.84rem;
+  height: 13.68rem;
+}
+.wrap .left .list,
+.wrap .right .list {
+  display: flex;
+  margin-bottom: 0.36rem;
+}
+.wrap .left .list a,
+.wrap .right .list a {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  width: 3.42rem;
+  height: 4.2rem;
+  background-size: 3.42rem;
+}
+.wrap .left .list a img,
+.wrap .right .list a img {
+  width: 2.72rem;
+  height: 2.72rem;
+  margin-bottom: 0.56rem;
+}
+.wrap .left .list a span,
+.wrap .right .list a span {
+  position: absolute;
+  bottom: 0.2rem;
+  padding: 0 0.28rem;
+  line-height: 0.56rem;
+  color: #b95a17;
+  background-color: #fff6ed;
+  border-radius: 0.28rem;
+  font-size: 0.44rem;
+  text-align: center;
+}
+.wrap .left .list a:nth-child(1),
+.wrap .right .list a:nth-child(1) {
+  background-image: url(../images/榜1.png);
+}
+.wrap .left .list a:nth-child(2),
+.wrap .right .list a:nth-child(2) {
+  background-image: url(../images/榜2.png);
+}
+.wrap .right .list a:nth-child(1) {
+  background-image: url(../images/榜3.png);
+}
+.wrap .right .list a:nth-child(2) {
+  background-image: url(../images/榜4.png);
+}
+.wrap .left .discount a {
+  position: relative;
+  display: block;
+  height: 8.76rem;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.wrap .left .discount a img {
+  width: 6.84rem;
+}
+.wrap .left .discount a img:nth-child(1) {
+  position: absolute;
+  height: 1.2rem;
+}
+.wrap .left .discount a img:nth-child(2) {
+  height: 8.76rem;
+}
+.wrap .left .discount a ul {
+  display: flex;
+  position: absolute;
+  bottom: 0.2rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.wrap .left .discount a ul li {
+  width: 0.18rem;
+  height: 0.16rem;
+  background-color: rgba(0, 0, 0, 0.3);
+  margin: 0 0.08rem;
+  border-radius: 0.08rem;
+}
+.wrap .left .discount a ul li:nth-child(1) {
+  width: 0.36rem;
+  background-color: #fff;
+}
+.wrap .right {
+  height: ;
+}
