@@ -101,11 +101,10 @@ li {
     display: flex;
 
     a {
-        display: block;
-        width: (250rem / @basefont);
-
+        display: block; 
         img {
             height: (192.02rem / @basefont);
+            width: (250rem / @basefont);
         }
     }
 }
@@ -116,9 +115,7 @@ li {
 
 .wrap {
     display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    width: (702rem / @basefont);
+    justify-content: space-around;
     background-color: skyblue;
 
     .left,
@@ -230,6 +227,52 @@ li {
         }
     }
     .right {
-        height: ;
+        .card {
+            height: (210rem / @basefont);
+            background-image: url(../images/card1.png);
+            background-size: 100%;
+            margin-bottom: (18rem / @basefont);
+            div {
+                display: flex;
+                justify-content: space-around;
+                span {
+                    display: block;
+                    width: (156rem / @basefont);
+                    line-height: (48rem / @basefont);
+                    font-size: (26rem / @basefont);
+                    color: #fff;
+                    text-align: center;
+                }
+            }
+            a {
+                float:left;
+                position: relative;
+                display: block;
+                margin-left: 0.24rem;
+                text-align: center;
+                width: (156rem / @basefont);
+                height: (150rem / @basefont);
+                img {
+                    width: (120rem / @basefont);
+                    margin-top: (15rem / @basefont);
+                }
+                span {
+                    position: absolute;
+                    bottom: (10rem / @basefont);
+                    left: (10rem / @basefont);
+                    width: (140rem / @basefont);
+                    line-height: (28rem / @basefont);
+                    border-radius:( (28rem / @basefont) / 2) ;
+                    font-size: (24rem / @basefont);
+                    background-color: #ff4b19;
+                    color: #fff;
+                    &:nth-child(2) {
+                        left: (5rem / @basefont);
+                    }
+                }
+            }
+            
+        }
+
     }
 }
