@@ -149,7 +149,6 @@ li {
 .wrap {
   display: flex;
   justify-content: space-around;
-  background-color: skyblue;
 }
 .wrap .left,
 .wrap .right {
@@ -283,4 +282,139 @@ li {
 }
 .wrap .right .card a span:nth-child(2) {
   left: 0.1rem;
+}
+.advt a img {
+  height: 4rem;
+}
+.goods {
+  padding: 0 0.48rem;
+}
+.goods .title a {
+  display: block;
+  height: 1.2rem;
+  background: url(../images/goods-title.webp) no-repeat;
+  background-size: 14.04rem 1.2rem;
+}
+.goods .commodity {
+  display: flex;
+  justify-content: space-between;
+}
+.goods .commodity .left,
+.goods .commodity .right {
+  width: 6.84rem;
+}
+.goods .commodity .left .toll,
+.goods .commodity .right .toll {
+  border-radius: 0.24rem;
+  overflow: hidden;
+  margin-bottom: 0.36rem;
+}
+.goods .commodity .left .toll a:nth-child(1),
+.goods .commodity .right .toll a:nth-child(1) {
+  display: block;
+  height: 6.84rem;
+}
+.goods .commodity .left .toll a:nth-child(1) img,
+.goods .commodity .right .toll a:nth-child(1) img {
+  width: 100%;
+  height: 100%;
+}
+.goods .commodity .left .toll .introduce,
+.goods .commodity .right .toll .introduce {
+  display: block;
+  padding: 0.36rem 0.24rem;
+  background-color: #fff;
+}
+.goods .commodity .left .toll .introduce div:nth-child(1),
+.goods .commodity .right .toll .introduce div:nth-child(1) {
+  font-size: 0.52rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.goods .commodity .left .toll .introduce div:nth-child(2),
+.goods .commodity .right .toll .introduce div:nth-child(2) {
+  height: 0.48rem;
+  margin: 0.22rem 0 0.48rem;
+  background: url(../images/store.png) no-repeat;
+  background-size: 0.96rem;
+}
+.goods .commodity .left .toll .introduce div:nth-child(3),
+.goods .commodity .right .toll .introduce div:nth-child(3) {
+  font-size: 0.48rem;
+  color: #f42;
+  font-weight: 700;
+  margin-bottom: 0.2rem;
+}
+.goods .commodity .left .toll .introduce div:nth-child(3) span:nth-child(2),
+.goods .commodity .right .toll .introduce div:nth-child(3) span:nth-child(2) {
+  font-size: 0.72rem;
+}
+.goods .commodity .left .toll .introduce div:nth-child(3) span:nth-child(4),
+.goods .commodity .right .toll .introduce div:nth-child(3) span:nth-child(4) {
+  font-size: 0.4rem;
+  color: #999;
+  margin-left: 0.26rem;
+  font-weight: 400;
+}
+.goods .commodity .left .toll .introduce div:nth-child(4),
+.goods .commodity .right .toll .introduce div:nth-child(4) {
+  padding: 0.36rem 0.44rem 0 0;
+  line-height: 0.84rem;
+  border-top: 1px #999 solid;
+  display: flex;
+  justify-content: space-between;
+}
+.goods .commodity .left .toll .introduce div:nth-child(4) div,
+.goods .commodity .right .toll .introduce div:nth-child(4) div {
+  width: 3rem;
+  padding-left: 1.04rem;
+  font-size: 0.48rem;
+  color: #666;
+  background: url(../images/goods_cate.png) no-repeat;
+  background-size: 0.84rem;
+}
+.goods .commodity .left .toll .introduce div:nth-child(4) span,
+.goods .commodity .right .toll .introduce div:nth-child(4) span {
+  display: block;
+  margin-top: 0.24rem;
+  width: 0.2rem;
+  height: 0.36rem;
+  background: url(../images/箭头.png) no-repeat;
+}
+.end {
+  height: 7.26rem;
+}
+.end img {
+  height: 3.46rem;
+}
+.foot {
+  position: fixed;
+  bottom: 0;
+}
+.foot div:nth-child(1) {
+  height: 1.8rem;
+}
+.foot div:nth-child(1) img {
+  width: 100%;
+}
+.foot div:nth-child(2) {
+  background-color: #fff;
+}
+.foot div:nth-child(2) ul {
+  display: flex;
+}
+.foot div:nth-child(2) ul li a {
+  display: block;
+  width: 3rem;
+  height: 2rem;
+  font-size: 0.4rem;
+  color: #666;
+  text-align: center;
+}
+.foot div:nth-child(2) ul li a img {
+  display: block;
+  margin: 0.24rem 1.02rem 0;
 }
