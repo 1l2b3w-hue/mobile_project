@@ -156,6 +156,69 @@ div .top span {
   right: 0.4933rem;
   transform: rotate(0.5turn);
 }
+.student {
+  background-color: #fdfdfd;
+}
 .student .top h2 {
   background: url(../images/充电保@2x.png) no-repeat;
+  background-size: 0.5067rem 0.5067rem;
+}
+.student .course {
+  padding: 0.52rem 0 0 0.4133rem;
+  height: 5.16rem;
+  overflow: hidden;
+  margin-bottom: 0.3733rem;
+}
+.student .course ul {
+  display: flex;
+}
+.student .course ul li {
+  margin-right: 0.3733rem;
+  box-shadow: 0.0133rem 0.0133rem 0.04rem #999;
+}
+.student .course ul li a {
+  display: block;
+  width: 3.7867rem;
+  height: 4.4933rem;
+  padding: 0.1333rem 0.04rem 0;
+  border-radius: 0.1333rem;
+  background-color: #fff;
+}
+.student .course ul li a img {
+  width: 3.6267rem;
+  height: 2.28rem;
+}
+.student .course ul li a span {
+  display: block;
+  padding: 0 0.24rem 0 0.16rem;
+}
+.student .course ul li a span:nth-child(2) {
+  color: #333740;
+  font-size: 0.3333rem;
+  margin: 0.2rem 0 0.3333rem 0;
+}
+.student .course ul li a span:nth-child(3) {
+  font-size: 0.2667rem;
+  color: #999;
+}
+.student .course ul li a span:nth-child(3) strong {
+  color: #f40;
+  font-weight: 400;
+}
+.footer {
+  height: 1.2667rem;
+  margin-bottom: 0.2533rem;
+  padding-top: 0.3333rem;
+}
+.footer ul {
+  display: flex;
+  justify-content: space-around;
+}
+.footer ul li a img {
+  width: 1.1733rem;
+  height: 0.9333rem;
+}
+.footer ul li:nth-child(1) a img {
+  width: 0.5867rem;
+  height: 0.9867rem;
 }

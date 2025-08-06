@@ -107,6 +107,7 @@ div {
         }
     }
 }
+
 .slider {
 
 
@@ -115,12 +116,14 @@ div {
         position: relative;
         padding: .4533rem 1.4667rem 0;
         height: 6.6267rem;
+
         .main {
             display: flex;
             justify-content: space-between;
             flex-wrap: wrap;
             position: relative;
             padding-top: .44rem;
+
             div {
                 flex-shrink: 0;
             }
@@ -140,12 +143,14 @@ div {
                 top: 0;
                 left: 1.3333rem;
                 width: 4.5067rem;
-                height: 5.0133rem; 
+                height: 5.0133rem;
+
                 img {
                     width: 100%;
                     height: 100%;
                 }
             }
+
             span {
                 position: absolute;
                 left: 1.92rem;
@@ -153,43 +158,120 @@ div {
                 font-size: .3333rem;
                 color: #333;
             }
+
             div:nth-child(5) {
                 position: absolute;
                 top: 1.9733rem;
                 left: 3.2267rem;
                 width: .9067rem;
                 height: .9067rem;
+
                 img {
                     width: 100%;
                     height: 100%;
                 }
             }
         }
+
         .left,
         .right {
             position: absolute;
             top: 2.6667rem;
-            
+
             width: .3067rem;
-            height: .5733rem; 
+            height: .5733rem;
+
             img {
                 width: 100%;
                 height: 100%;
             }
         }
+
         .left {
             left: .4933rem;
         }
+
         .right {
             right: .4933rem;
             transform: rotate(0.5turn);
         }
     }
 }
+
 .student {
+    background-color: #fdfdfd;
     .top {
         h2 {
             background: url(../images/充电保@2x.png) no-repeat;
+            background-size: .5067rem .5067rem;
         }
+    }
+
+    .course {
+        padding: .52rem 0 0 .4133rem;
+        height: 5.16rem;
+        overflow: hidden;
+        margin-bottom:.3733rem;
+        ul {
+            display: flex;
+            li {
+                margin-right: .3733rem;
+                box-shadow: .0133rem .0133rem .04rem #999;
+                a {
+                    display: block;
+                    width: 3.7867rem;
+                    height: 4.4933rem;
+                    padding: .1333rem .04rem 0;
+                    border-radius: .1333rem;
+                    background-color: #fff;
+                    img {
+                        width: 3.6267rem ;
+                        height: 2.28rem;
+                    }
+                    span {
+                        display: block;
+                        padding: 0 .24rem 0 .16rem;
+                    }
+                    span:nth-child(2) {
+                        color: #333740;
+                        font-size: .3333rem;
+                        margin: .2rem 0 .3333rem 0;
+                    }
+                    span:nth-child(3) {
+                        font-size: .2667rem;
+                        color: #999;
+                        strong {
+                            color: #f40;
+                            font-weight: 400;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.footer {
+    height: 1.2667rem;
+    margin-bottom: .2533rem;
+    padding-top: .3333rem;
+    ul {
+       display: flex; 
+       justify-content: space-around;
+       li {
+        a {
+            img {
+                width: 1.1733rem;
+                height: .9333rem;
+            }
+        }
+       }
+       li:nth-child(1) {
+        a {
+            img {
+                width: .5867rem;
+                height: .9867rem;
+            }
+        }
+       }
     }
 }
