@@ -1,0 +1,161 @@
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 32px !important;
+  }
+}
+@media screen and (min-width: 750px) {
+  html {
+    font-size: 75px !important;
+  }
+}
+body {
+  margin: 0 auto;
+  width: 10rem;
+  background-color: #fff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
+li {
+  list-style: none;
+}
+header img {
+  height: 1.72rem;
+  width: 10rem;
+}
+.nav {
+  display: grid;
+  grid-template-columns: repeat(3, 1.8533rem);
+  grid-template-rows: 2.3467rem 2.3467rem;
+  justify-content: space-between;
+  align-content: space-between;
+  margin: 0.6rem 0.7467rem 0 0.6933rem;
+  width: 8.56rem;
+  height: 5.5733rem;
+}
+.nav a {
+  display: block;
+  width: 1.8533rem;
+  height: 2.3733rem;
+  text-align: center;
+}
+.nav a img {
+  width: 1.8533rem;
+  height: 1.8533rem;
+}
+.nav a span {
+  display: block;
+  font-size: 0.3333rem;
+  color: #707070;
+}
+.advert {
+  margin: 0.8rem auto 0.5733rem;
+  width: 9.6267rem;
+  height: 2.0267rem;
+}
+.advert img {
+  width: 9.6267rem;
+  height: 2.0267rem;
+}
+.divide {
+  height: 0.1333rem;
+  background-color: #f2f4f7;
+}
+div .top {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.6667rem 0.32rem 0.5067rem 0.2933rem;
+  height: 0.5067rem;
+}
+div .top h2 {
+  line-height: 0.5067rem;
+  font-size: 0.3733rem;
+  background: url(../images/新手指导@2x.png) no-repeat;
+  background-size: 0.5067rem 0.5067rem;
+  padding-left: 0.7467rem;
+}
+div .top span {
+  line-height: 0.5067rem;
+  font-size: 0.2933rem;
+  color: #999;
+}
+.slider .body {
+  position: relative;
+  padding: 0.4533rem 1.4667rem 0;
+  height: 6.6267rem;
+}
+.slider .body .main {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: relative;
+  padding-top: 0.44rem;
+}
+.slider .body .main div {
+  flex-shrink: 0;
+}
+.slider .body .main div:nth-child(n+1) {
+  height: 4.24rem;
+  width: 2.4133rem;
+}
+.slider .body .main div:nth-child(n+1) img {
+  height: 100%;
+  width: 100%;
+}
+.slider .body .main div:nth-child(2) {
+  position: absolute;
+  top: 0;
+  left: 1.3333rem;
+  width: 4.5067rem;
+  height: 5.0133rem;
+}
+.slider .body .main div:nth-child(2) img {
+  width: 100%;
+  height: 100%;
+}
+.slider .body .main span {
+  position: absolute;
+  left: 1.92rem;
+  top: 5.2667rem;
+  font-size: 0.3333rem;
+  color: #333;
+}
+.slider .body .main div:nth-child(5) {
+  position: absolute;
+  top: 1.9733rem;
+  left: 3.2267rem;
+  width: 0.9067rem;
+  height: 0.9067rem;
+}
+.slider .body .main div:nth-child(5) img {
+  width: 100%;
+  height: 100%;
+}
+.slider .body .left,
+.slider .body .right {
+  position: absolute;
+  top: 2.6667rem;
+  width: 0.3067rem;
+  height: 0.5733rem;
+}
+.slider .body .left img,
+.slider .body .right img {
+  width: 100%;
+  height: 100%;
+}
+.slider .body .left {
+  left: 0.4933rem;
+}
+.slider .body .right {
+  right: 0.4933rem;
+  transform: rotate(0.5turn);
+}
+.student .top h2 {
+  background: url(../images/充电保@2x.png) no-repeat;
+}

@@ -1,0 +1,195 @@
+@media screen and (max-width:320px) {
+    html {
+        font-size: 32px !important;
+    }
+}
+
+@media screen and (min-width:750px) {
+    html {
+        font-size: 75px !important;
+    }
+}
+
+body {
+    margin: 0 auto;
+    width: 10rem;
+    background-color: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    img {
+        height: 1.72rem;
+        width: 10rem;
+    }
+}
+
+.nav {
+    display: grid;
+    grid-template-columns: repeat(3, 1.8533rem);
+    grid-template-rows: 2.3467rem 2.3467rem;
+    justify-content: space-between;
+    align-content: space-between;
+    margin: .6rem .7467rem 0 .6933rem;
+    width: 8.56rem;
+    height: 5.5733rem;
+
+    a {
+        display: block;
+        width: 1.8533rem;
+        height: 2.3733rem;
+        text-align: center;
+
+        img {
+            width: 1.8533rem;
+            height: 1.8533rem;
+        }
+
+        span {
+            display: block;
+            font-size: .3333rem;
+            color: #707070;
+        }
+    }
+
+}
+
+.advert {
+    margin: .8rem auto .5733rem;
+    width: 9.6267rem;
+    height: 2.0267rem;
+
+    img {
+        width: 9.6267rem;
+        height: 2.0267rem;
+    }
+
+}
+
+.divide {
+    height: .1333rem;
+    background-color: #f2f4f7;
+}
+
+div {
+    .top {
+        display: flex;
+        justify-content: space-between;
+        margin: .6667rem .32rem .5067rem .2933rem;
+        height: .5067rem;
+
+        h2 {
+            line-height: .5067rem;
+            font-size: .3733rem;
+            background: url(../images/新手指导@2x.png) no-repeat;
+            background-size: .5067rem .5067rem;
+            padding-left: .7467rem;
+        }
+
+        span {
+            line-height: .5067rem;
+            font-size: .2933rem;
+            color: #999;
+        }
+    }
+}
+.slider {
+
+
+
+    .body {
+        position: relative;
+        padding: .4533rem 1.4667rem 0;
+        height: 6.6267rem;
+        .main {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            position: relative;
+            padding-top: .44rem;
+            div {
+                flex-shrink: 0;
+            }
+
+            div:nth-child(n+1) {
+                height: 4.24rem;
+                width: 2.4133rem;
+
+                img {
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+
+            div:nth-child(2) {
+                position: absolute;
+                top: 0;
+                left: 1.3333rem;
+                width: 4.5067rem;
+                height: 5.0133rem; 
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            span {
+                position: absolute;
+                left: 1.92rem;
+                top: 5.2667rem;
+                font-size: .3333rem;
+                color: #333;
+            }
+            div:nth-child(5) {
+                position: absolute;
+                top: 1.9733rem;
+                left: 3.2267rem;
+                width: .9067rem;
+                height: .9067rem;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+        .left,
+        .right {
+            position: absolute;
+            top: 2.6667rem;
+            
+            width: .3067rem;
+            height: .5733rem; 
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .left {
+            left: .4933rem;
+        }
+        .right {
+            right: .4933rem;
+            transform: rotate(0.5turn);
+        }
+    }
+}
+.student {
+    .top {
+        h2 {
+            background: url(../images/充电保@2x.png) no-repeat;
+        }
+    }
+}

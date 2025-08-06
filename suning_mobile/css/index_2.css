@@ -3,7 +3,6 @@ body {
   /* 此处划分为10等分，基准值为75，设计稿为750，则大小设为10rem */
   width: 10rem;
   min-width: 320px;
-  max-width: 750px;
   background-color: #f2f2f2;
 }
 * {
@@ -17,4 +16,40 @@ a {
 }
 li {
   list-style: none;
+}
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 32px !important;
+  }
+}
+@media screen and (min-width: 750px) {
+  html {
+    font-size: 75px !important;
+  }
+}
+.search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.4533rem;
+  width: 10rem;
+  height: 1.1733rem;
+  background: url(../images/搜索.jfif) no-repeat;
+  background-size: 10rem 1.1733rem;
+}
+.search div {
+  width: 7.6rem;
+}
+.search div a:nth-child(1) {
+  display: block;
+  color: #757575;
+  font-size: 0.48rem;
+  width: 6.96rem;
+  line-height: 0.9067rem;
+  border-radius: 0.4533rem;
+  background-color: #fff;
+}
+.search a img {
+  width: 0.48rem;
+  height: 0.8rem;
 }
