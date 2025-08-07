@@ -114,86 +114,78 @@ div {
 
     .body {
         position: relative;
-        padding: .4533rem 1.4667rem 0;
+        padding: .4533rem 1.4667rem .5067rem;
         height: 6.6267rem;
-
-        .main {
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-            position: relative;
-            padding-top: .44rem;
-
-            div {
-                flex-shrink: 0;
-            }
-
-            div:nth-child(n+1) {
-                height: 4.24rem;
-                width: 2.4133rem;
-
-                img {
-                    height: 100%;
-                    width: 100%;
+        .swiper-container {
+            width: 7.16rem;
+            height: 100%;
+            overflow: hidden;
+            .swiper-wrapper {
+                .swiper-slide {
+                    text-align: center;
+                    font-size: 18px;
+                    background: #fff;
+              
+                    /* Center slide text vertically */
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: -webkit-flex;
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-content: flex-start;
+                    -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                    -webkit-justify-content: center;
+                    justify-content: center;
+                    -webkit-box-align: center;
+                    -ms-flex-align: center;
+                    -webkit-align-items: center;
+                    align-items: center;
+                    transition: 300ms;
+                    transform: scale(0.8);
+                    opacity: 0.4;
+                    a {
+                        position: relative;
+                        flex-shrink: 0;
+                        width: 4.5067rem;
+                        height: 5.0133rem;
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                        span {
+                            font-size: .3333rem;
+                            margin-top: .32rem;
+                            color: #333;
+                        }
+                        img:nth-child(3) {
+                            position: absolute;
+                            top: 1.9733rem;
+                            left: 1.8933rem;
+                            width: .9067rem;
+                            height: .9067rem;
+                        }
+                    }
+                
                 }
-            }
-
-            div:nth-child(2) {
-                position: absolute;
-                top: 0;
-                left: 1.3333rem;
-                width: 4.5067rem;
-                height: 5.0133rem;
-
-                img {
-                    width: 100%;
-                    height: 100%;
-                }
-            }
-
-            span {
-                position: absolute;
-                left: 1.92rem;
-                top: 5.2667rem;
-                font-size: .3333rem;
-                color: #333;
-            }
-
-            div:nth-child(5) {
-                position: absolute;
-                top: 1.9733rem;
-                left: 3.2267rem;
-                width: .9067rem;
-                height: .9067rem;
-
-                img {
-                    width: 100%;
-                    height: 100%;
-                }
+                .swiper-slide-active,.swiper-slide-duplicate-active{
+                    transform: scale(1);
+                    z-index: 10;
+                    opacity: 1;
+                  }
             }
         }
-
-        .left,
-        .right {
+        div[class^="swiper-button-"] {
             position: absolute;
-            top: 2.6667rem;
-
-            width: .3067rem;
+            color:black;
             height: .5733rem;
-
-            img {
-                width: 100%;
-                height: 100%;
-            }
+            width: .3067rem;
         }
-
-        .left {
-            left: .4933rem;
+        .swiper-button-prev {
+           left: .4rem;
         }
-
-        .right {
-            right: .4933rem;
-            transform: rotate(0.5turn);
+        .swiper-button-next {
+            right: .4rem;
         }
     }
 }
