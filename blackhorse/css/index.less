@@ -116,16 +116,18 @@ div {
         position: relative;
         padding: .4533rem 1.4667rem .5067rem;
         height: 6.6267rem;
+
         .swiper-container {
             width: 7.16rem;
             height: 100%;
             overflow: hidden;
+
             .swiper-wrapper {
                 .swiper-slide {
                     text-align: center;
                     font-size: 18px;
                     background: #fff;
-              
+
                     /* Center slide text vertically */
                     display: -webkit-box;
                     display: -ms-flexbox;
@@ -144,20 +146,24 @@ div {
                     transition: 300ms;
                     transform: scale(0.8);
                     opacity: 0.4;
+
                     a {
                         position: relative;
                         flex-shrink: 0;
                         width: 4.5067rem;
                         height: 5.0133rem;
+
                         img {
                             width: 100%;
                             height: 100%;
                         }
+
                         span {
                             font-size: .3333rem;
                             margin-top: .32rem;
                             color: #333;
                         }
+
                         img:nth-child(3) {
                             position: absolute;
                             top: 1.9733rem;
@@ -166,24 +172,29 @@ div {
                             height: .9067rem;
                         }
                     }
-                
+
                 }
-                .swiper-slide-active,.swiper-slide-duplicate-active{
+
+                .swiper-slide-active,
+                .swiper-slide-duplicate-active {
                     transform: scale(1);
                     z-index: 10;
                     opacity: 1;
-                  }
+                }
             }
         }
+
         div[class^="swiper-button-"] {
             position: absolute;
-            color:black;
+            color: black;
             height: .5733rem;
             width: .3067rem;
         }
+
         .swiper-button-prev {
-           left: .4rem;
+            left: .4rem;
         }
+
         .swiper-button-next {
             right: .4rem;
         }
@@ -192,6 +203,7 @@ div {
 
 .student {
     background-color: #fdfdfd;
+
     .top {
         h2 {
             background: url(../images/充电保@2x.png) no-repeat;
@@ -203,67 +215,94 @@ div {
         padding: .52rem 0 0 .4133rem;
         height: 5.16rem;
         overflow: hidden;
-        margin-bottom:.3733rem;
-        ul {
+        margin-bottom: .3733rem;
+        background-color: skyblue;
+
+        .swiper-container2 {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .swiper-slide {
+            padding-top: .1333rem;
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
             display: flex;
-            li {
-                margin-right: .3733rem;
-                box-shadow: .0133rem .0133rem .04rem #999;
-                a {
-                    display: block;
-                    width: 3.7867rem;
-                    height: 4.4933rem;
-                    padding: .1333rem .04rem 0;
-                    border-radius: .1333rem;
-                    background-color: #fff;
-                    img {
-                        width: 3.6267rem ;
-                        height: 2.28rem;
-                    }
-                    span {
-                        display: block;
-                        padding: 0 .24rem 0 .16rem;
-                    }
-                    span:nth-child(2) {
-                        color: #333740;
-                        font-size: .3333rem;
-                        margin: .2rem 0 .3333rem 0;
-                    }
-                    span:nth-child(3) {
-                        font-size: .2667rem;
-                        color: #999;
-                        strong {
-                            color: #f40;
-                            font-weight: 400;
-                        }
-                    }
+            flex-wrap: wrap;
+            align-content: flex-start;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+            transition: 300ms;
+
+            a {
+                img {
+                    width: 3.6267rem;
+                    height: 2.28rem;
+                    margin-bottom: .2667rem;
                 }
+
+                span {
+                    display: block;
+                    text-align: start;
+                }
+
+                span:nth-child(2) {
+                    font-size: .4rem;
+                    color: #333740;
+
+                   
+                }
+                 span:nth-child(3) {
+                    margin-top: .3733rem;
+                    color: #999;
+                    font-size: .2667rem;
+                    strong {
+                        color: #f40;
+                    }
+                 }
             }
         }
     }
 }
+
 .footer {
     height: 1.2667rem;
     margin-bottom: .2533rem;
     padding-top: .3333rem;
+
     ul {
-       display: flex; 
-       justify-content: space-around;
-       li {
-        a {
-            img {
-                width: 1.1733rem;
-                height: .9333rem;
+        display: flex;
+        justify-content: space-around;
+
+        li {
+            a {
+                img {
+                    width: 1.1733rem;
+                    height: .9333rem;
+                }
             }
         }
-       }
-       li:nth-child(1) {
-        a {
-            img {
-                width: .5867rem;
-                height: .9867rem;
+
+        li:nth-child(1) {
+            a {
+                img {
+                    width: .5867rem;
+                    height: .9867rem;
+                }
             }
         }
-       }
     }
 }
